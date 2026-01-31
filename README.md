@@ -1,122 +1,73 @@
----
+# Welcome to your Lovable project
 
-## Thesis
+## Project info
 
-RE:Connect is an **AI-powered real estate opportunity intelligence system** rather than a presentation tool.
-The platform is designed to help agents to find the best investment opportunity for a client.
+**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-### The System Includes
+## How can I edit this code?
 
-####  Property Intelligence Engine  
-The backend system analyzes raw real estate data and converts it into **investment-relevant metrics** such as:
+There are several ways of editing your application.
 
-- Price growth trends  
-- Rental income potential  
-- Demand indicators  
-- Volatility and risk signals  
+**Use Lovable**
 
----
+Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-#### Opportunity Scoring Model  
-Each property is processed through a scoring model that generates an **Investment Opportunity Score**.
+Changes made via Lovable will be committed automatically to this repo.
 
-This score is based on:
-- Historical appreciation  
-- Yield potential  
-- Market stability  
-- Risk exposure  
+**Use your preferred IDE**
 
-The result is a **ranked list of properties** instead of a raw database.
----
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-#### Investor Profiling System  
-Agents can input client preferences such as:
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-- Budget  
-- Risk tolerance  
-- Investment goal (rental vs appreciation)
+Follow these steps:
 
-The system builds a **structured investor profile** that can be reused for future recommendations.
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
----
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-#### Matching & Recommendation Engine  
-This module matches:
+# Step 3: Install the necessary dependencies.
+npm i
 
-**Investor Profile** ⇄ **Scored Properties**
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-It outputs:
-- Best-fit opportunities  
-- Medium-fit options  
-- High-risk alternatives  
+**Edit a file directly in GitHub**
 
-This transforms the agent’s role from **manual searching** to **presenting curated opportunities**.
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
----
+**Use GitHub Codespaces**
 
-####  AI Insight Generator  
-For every recommended property, the system generates a short, clear explanation such as:
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-> “This property shows strong 5-year appreciation and above-average rental yield, making it suitable for moderate-risk investors seeking steady income.”
+## What technologies are used for this project?
 
-This makes insights:
-- Client-friendly  
-- Easy to explain  
-- Faster to act on  
+This project is built with:
 
----
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-## 🛠 Detailed Tech Stack
+## How can I deploy this project?
 
-## 🛠 Tech Stack
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
 
-RE:Connect is built as a **data-driven and machine learning–assisted system** for analyzing real estate investment opportunities.
+## Can I connect a custom domain to my Lovable project?
 
-###  Machine Learning
-Machine learning is used to support property evaluation and opportunity scoring.
+Yes, you can!
 
-**Key uses:**
-- Predicting property price growth trends  
-- Estimating rental yield potential  
-- Identifying high-demand vs low-demand areas  
-- Detecting market risk patterns from historical data  
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-These outputs contribute to the **Investment Opportunity Score**, which ranks properties based on investment potential.
-
----
-
-### Jupyter Notebook
-Jupyter Notebooks are used during development for:
-- Exploratory Data Analysis (EDA)  
-- Data cleaning and preprocessing  
-- Feature engineering  
-- Training and testing ML models  
-- Visualizing trends and model outputs  
-
-This allows rapid experimentation before integrating the logic into the system.
-
----
-
-###  Data Sources
-- Public real estate datasets  
-- Historical price data  
-- Rental market statistics  
-- Area-level demand indicators  
-
----
-
-### AI Insight Layer
-Used to generate short natural-language summaries explaining:
-- Why a property is recommended  
-- Key advantages  
-- Possible risks  
-
----
-
-###  Interface (Prototype)
-A simple dashboard interface is used to display:
-- Ranked properties  
-- Investment scores  
-- Market trend visualizations  
-
-
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
